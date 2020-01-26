@@ -26,7 +26,7 @@
 % Footer
 \setbeamertemplate{footline}[text line]{
   \ifnum\thepage>1\relax
-    \parbox{\linewidth}{\vspace*{-20pt}\hfill\insertpagenumber}
+    \parbox{\linewidth}{\vspace*{-20pt}\hfill\usebeamerfont{pagenumber}\insertpagenumber\hspace*{-20pt}}
   \fi
 }
 
@@ -56,6 +56,18 @@
 % TOC
 \setbeamertemplate{section in toc}{
   \inserttocsectionnumber. \inserttocsection
+}
+
+% Inter section slides
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{sectiontitle}
+    \usebeamerfont{sectiontitle}\secname\par
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
 }
 
 \mode
