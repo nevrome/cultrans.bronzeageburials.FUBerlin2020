@@ -39,6 +39,7 @@ rsconnect/
 # rendered results
 presentation.tex
 presentation.pdf
+README.html
 
 # logfiles
 *.log

@@ -2,7 +2,7 @@
 
 # Eine Rekonstruktion der Ausbreitung bronzezeitlicher Bestattungssitten im weiteren Mitteleuropa anhand von C14-Daten – Methodische Inspirationen zu Cultural Transmission
 
-<img align="right" src="map_graves.jpeg" width = 350>
+<img align="left" src="map_graves.jpeg" width = 250>
 
 Die enorme Komplexität bronzezeitlicher Bestattungssitten lässt sich -- freilich unter Verlust der eigentlich immensen Variabilität von Ritualen und Traditionen -- auf zwei Hauptdimensionen reduzieren: Flachgräber gegenüber Hügelgräbern und Brandbestattungen im Gegensatz zu Körperbestattungen. Die europäische Bronzezeitforschung konzentriert sich oft auf diese Kategorien, wenn sie große Narrative zu soziokultureller Interaktion und politischer Entwicklung spinnt. 
 
