@@ -1,6 +1,5 @@
 ---
-title: "Quantitative analysis of cultural trait development"
-subtitle: Evaluating Cultural Transmission in Bronze Age burial rites of Central, Northern and North-western Europe using radiocarbon data
+title: "Eine Rekonstruktion der Ausbreitung bronzezeitlicher Bestattungssitten im weiteren Mitteleuropa anhand von C14-Daten – Methodische Inspirationen zu Cultural Transmission"
 author: "Clemens Schmid"
 date: "2019/06/05"
 fontsize: 9pt
@@ -24,19 +23,23 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ```
 
-## TOC
+##
 
-\textblockcolour{nicegrey}
+\LARGE
 
-\huge
+\begin{center}
+\includegraphics[height=5cm]{figures/niels_bach_pyre}
+\end{center}
 
-- Introduction to the data
+- Einführung zum Datensatz
 
-- Cultural Distance
+- Kulturelle Distanz, räumliche Distanz und Korrelation
 
-- Cultural and Spatial Distance
+- Interpolation und Gruppen
 
-- Simulating Cultural Transmission
+- Cultural Evolution und Bestattungssitten
+
+- Ideenausbreitung simulieren
 
 
 # Introduction
@@ -45,7 +48,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \textblockcolour{nicegrey}
 
-![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
+![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85%}
 
 \begin{textblock*}{65pt}(290pt,40pt)
   \textblockcolour{niceorange}
