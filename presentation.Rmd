@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## TOC
 
-\textblockcolour{mDarkTeal}
+\textblockcolour{nicegrey}
 
 \huge
 
@@ -43,7 +43,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Radiocarbon dates on graves
 
-\textblockcolour{mDarkTeal}
+\textblockcolour{nicegrey}
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
@@ -72,7 +72,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \includegraphics{figures/burial_rites_clipart.jpg}
 \end{textblock*}
 
-\textblockcolour{mDarkTeal}
+\textblockcolour{nicegrey}
 
 ## Dates on Graves through Time
 
@@ -371,7 +371,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\textblockcolour{mDarkTeal}
+\textblockcolour{nicegrey}
 
 \begin{textblock*}{70pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%

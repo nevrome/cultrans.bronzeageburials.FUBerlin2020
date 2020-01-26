@@ -1,0 +1,63 @@
+\mode<presentation>
+
+% General
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow = true]  
+
+% Slide background
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  % Title page
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \ifnum\thepage=1\relax
+    \fill[color = mpigreen] (0,2) rectangle (\the\paperwidth,\the\paperheight);
+    \node[inner sep=0pt] (whitehead) at (11.8,1){
+      \includegraphics[height = .2\textheight]{logo/MPI-SHH-Square-(2018).png}
+    };
+  \fi
+  % Non title page
+  \ifnum\thepage>1\relax
+    \fill[white, opacity = 1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+    \fill[mpigreen, opacity = 1] (0,0.98 * \the\paperheight) rectangle(\the\paperwidth,\the\paperheight);
+  \fi
+  \end{tikzpicture}
+}
+
+% Footer
+\setbeamertemplate{footline}[text line]{
+  \ifnum\thepage>1\relax
+    \parbox{\linewidth}{\vspace*{-20pt}\hfill\insertpagenumber}
+  \fi
+}
+
+% Title page
+\defbeamertemplate*{title page}{mpishh}[1][]{ 
+  \vfill
+  \begin{columns}
+    \column{1\linewidth}
+      \begin{beamercolorbox}[wd=12cm,center,sep=8pt]{title page header}
+        \usebeamerfont{title}\inserttitle\par
+      \end{beamercolorbox}
+      \vskip0.3cm
+      \begin{beamercolorbox}[wd=12cm,center]{author}
+        \usebeamerfont{author}\insertauthor
+      \end{beamercolorbox}
+  \end{columns}
+  % \vskip0.2cm%
+  %\begin{beamercolorbox}[wd=12cm,center,#1]{date}
+  %  \usebeamerfont{author}\insertdate%
+  %\end{beamercolorbox}
+  \vfill
+}
+
+% Items
+\setbeamertemplate{items}[square]
+
+% TOC
+\setbeamertemplate{section in toc}{
+  \inserttocsectionnumber. \inserttocsection
+}
+
+\mode
+<all>
+
