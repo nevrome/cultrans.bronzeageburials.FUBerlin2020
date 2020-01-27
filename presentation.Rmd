@@ -166,27 +166,27 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-# Cultural Distance
+# Kulturelle Distanz, räumliche Distanz und Korrelation
 
-## Measuring cultural distance
+## Kulturelle Distanz messen
 
-How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike? Can we measure spatial **interaction intensity**?
+Wie verhalten sich die regionalen Entwicklungen hinsichtlich **burial type** und **burial construction** zueinander? Welche Regionen verhalten sich ähnlich? Können wir die **Intensität räumlicher Interaktion** messen?
 
 \usebeamertemplate*{title separator}
 
-The **Squared Euclidian Distance** is a a simple **measure of between-group similarity** that can be applied to the **burial rite proxy** data.
+Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnlichkeit zwischen Gruppen**, das sich auf den Proxy-Datensatz anwenden lässt.
 
 \huge $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$ \normalsize
 
-- $d_{ij}^2$: Squared Euclidean Distance between two groups $i$ and $j$
-- $k$: Variant counter
-- $n$: Total amount of variants in a population
-- $p_{ik}$: Relative frequency of the $k$'th variant in population $i$
-- $p_{jk}$: Relative frequency of the $k$'th variant in population $j$
+- $d_{ij}^2$: Quadrierte Euklidische Distanz zwischen zwei Gruppen $i$ und $j$
+- $k$: Variantenzähler
+- $n$: Summe der Varianten
+- $p_{ik}$: Relative Häufigkeit der $k$'ten Variante in einer Population$i$
+- $p_{jk}$: Relative Häufigkeit der $k$'ten Variante in einer Population$j$
 
-## Region-Region Distance Matrix
+## Distanzentwicklungsmatrix
 
-![SED timeseries for each region relationship. Approximated with LOESS. **burial type** on top, **burial construction** in the bottom left corner.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=85% }
+![QED Zeitreihen für jedes Region-Region Paar. Interpoliert mit LOESS. **burial type** oben rechts, **burial construction** unten links.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=75% }
 
 \begin{textblock*}{65pt}(5pt,40pt)
   \textblockcolour{niceorange}
@@ -194,7 +194,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The \textbf{SED} can be calculated for every year of every one of the $8*8=64$ region relationships
+      The \textbf{QED} kann für jedes Jahr und jede der $8*8=64$ Regionen-Paare berechnet werden
     \end{minipage}}%
 \end{textblock*}
 
@@ -205,7 +205,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{burial construction}:
-      Heterogeneous distance development
+      Heterogene Distanzentwicklung
     \end{minipage}}%
 \end{textblock*}
 
@@ -216,62 +216,45 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{burial type}: \newline
-      Low distance at the start and end due to the \textbf{universal shift from inhumation to cremation} (Urnfield culture)
+      Hohe Ähnlichkeit zu Anfang und am Ende aufgrund des \textbf{allgemeinen Übergangs von Körper- zu Brandbestattung} (Urnenfelder Kultur)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,130pt)
+\begin{textblock*}{65pt}(295pt,150pt)
   \textblockcolour{burialtype}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
+      Unterschiedliche \textbf{Übernahmegeschwindigkeiten} bilden sich als \textbf{Distanzspitzen} ab
     \end{minipage}}%
 \end{textblock*}
 
-## Mean Region-Region Distance Matrix
+## Mittlere Distanzmatrix: Burial Type
 
-![**burial type**: Mean SED for each region relationship. The lower, the closer.](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=85% }
+![**burial type**: Mittlere QED für jedes Regionenpaar. Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,130pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Central European Cluster?
+      Zentral\-europäisches Cluster?
     \end{minipage}}%
 \end{textblock*}
 
-## Mean Region Distance Matrix
+## Mittlere Distanzmatrix: Burial Construction
 
-![**burial construction**: Mean SED for each region relationship.](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=85% }
+![**burial construction**: Mittlere QED für jedes Regionenpaar. Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(300pt,200pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Northwestern European Cluster?
+      Nordwest\-europäisches Cluster?
     \end{minipage}}%
 \end{textblock*}
-
-## Parallel Developments of Burial Type and Burial Construction Distance?
-
-\begin{columns}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{figures/regions_squared_euclidian_distance_burial_type.jpeg}
-      \caption{\textbf{burial type} Development of SED to all the others for each region.}
-    \end{figure}
-  \end{column}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
-      \caption{\textbf{burial construction}\newline}
-    \end{figure}
-  \end{column}
-\end{columns}
 
 ## Correlation of **Burial Type** and **Burial Construction** Distance
 
@@ -291,10 +274,6 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-
-
-# Cultural and Spatial Distance
-
 ## Spatial Distance Classes
 
 ![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
@@ -307,44 +286,6 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
       The definition of artificial regions as units of analysis makes distance measures difficult. \textbf{Ordinally scaled distance classes} are the only valid option here.
     \end{minipage}}%
 \end{textblock*}
-
-## Correlation of **Burial Type** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
-    \end{minipage}}%
-\end{textblock*}
-
-## Correlation of **Burial Construction** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
-    \end{minipage}}%
-\end{textblock*}
-
-# Distance Correlation Summary
 
 ## The complete distance network: Correlation of cultural and spatial distance
 
@@ -388,7 +329,11 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-# Simulation
+# Interpolation und Gruppen
+
+# Cultural Evolution und Bestattungssitten
+
+# Ideenausbreitung simulieren
 
 ## Preliminary Considerations
 
@@ -607,7 +552,58 @@ Simulation concept:
 
 - **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
 
-##
-
-\titlepage
+# Bonusfolien  
   
+## Parallel Developments of Burial Type and Burial Construction Distance?
+
+\begin{columns}
+  \begin{column}{0.48\textwidth}
+    \begin{figure}
+      \includegraphics{figures/regions_squared_euclidian_distance_burial_type.jpeg}
+      \caption{\textbf{burial type} Development of SED to all the others for each region.}
+    \end{figure}
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    \begin{figure}
+      \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
+      \caption{\textbf{burial construction}\newline}
+    \end{figure}
+  \end{column}
+\end{columns}
+
+## Correlation of **Burial Type** and **Spatial** Distance
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
+    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+  \end{figure}
+\end{adjustwidth}
+
+\begin{textblock*}{60pt}(290pt,130pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation of **Burial Construction** and **Spatial** Distance
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
+    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+  \end{figure}
+\end{adjustwidth}
+
+\begin{textblock*}{60pt}(290pt,130pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
+    \end{minipage}}%
+\end{textblock*}
+
