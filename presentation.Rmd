@@ -27,9 +27,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \LARGE
 
-\begin{center}
-\includegraphics[height=5cm]{figures/niels_bach_pyre}
-\end{center}
+\begin{figure}
+  \centering
+  \includegraphics[height=4cm]{figures/niels_bach_pyre}
+  \caption*{\tiny \textcopyright \ Niels Bach - http://nielsbach.blogspot.com}
+\end{figure}
 
 - Einführung zum Datensatz
 
