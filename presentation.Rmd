@@ -44,13 +44,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 - Ideenausbreitung simulieren
 
 
-# Introduction
+# Einführung zum Datensatz
 
-## Radiocarbon dates on graves
+## Radiokarbondatierungen an Gräbern
 
 \textblockcolour{nicegrey}
 
-![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85%}
+![Radon-B ^14^C Daten von Gräbern im Zeitraum 2200-800 calBC (Albers-Kegelprojektion).](figures/general_map.jpeg){height=80%}
 
 \begin{textblock*}{65pt}(290pt,40pt)
   \textblockcolour{niceorange}
@@ -58,7 +58,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Radon-B:} Database of \textsuperscript{14}C dates for the European Bronze Age
+      \textbf{Radon-B:} Datenbank mit \textsuperscript{14}C-Daten aus der europäischen Bronzezeit
     \end{minipage}}%
 \end{textblock*}
 
@@ -67,7 +67,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textsuperscript{14}C dating is an important absolute dating method: One date equals a \textbf{fuzzy point in space and time with context information}
+      \textsuperscript{14}C-Datierung ist eine wichtige absolute Datierungs\-methode:\\ Eine Datierung entspricht einem \textbf{unscharfen Punkt in Raum und Zeit mit Kontext\-informationen}
     \end{minipage}}%
 \end{textblock*}
 
@@ -79,13 +79,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \textblockcolour{nicegrey}
 
-## Dates on Graves through Time
+## Gräber durch die Zeit
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/general_map_research_area_timeslices.jpeg}
-    \caption{Plot matrix of radiocarbon dates on graves through time. \newline 
-    200 years time slices.
+    \caption{Plot matrix von Datierungen an Gräbern durch die Zeit. \newline 
+    200 Jahre Zeitscheiben.
     }
   \end{figure}
 \end{adjustwidth}
@@ -95,30 +95,30 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Heterogeneous \textbf{information density} in space and time
+      Heterogene \textbf{Informationsdichte} in Raum und Zeit
     \end{minipage}}%
 \end{textblock*}
 
-## Artificial Macro-Regions
+## Künstliche Macro-Regionen
 
-![Artificial Regions: 400km distance, 240km radius, >= 70 dates.](figures/general_map_research_area_regions.jpeg){ height=85% }
+![Künstliche Regionen: 400km Abstand, 240km Radius, >= 70 Datierungen.](figures/general_map_research_area_regions.jpeg){ height=85% }
 
 \begin{textblock*}{75pt}(30pt,140pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Divide and Conquer: Separation into eight \textbf{artificial regions} within the area of the highest data density
+      Teile und Herrsche: Acht \textbf{künstliche Regionen} im Forschungsareal
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- Absolute Numbers
+## Regionale Zeitreihen -- Absolute Anzahl
 
 \begin{columns}
   \begin{column}{0.48\textwidth}  
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_type.jpeg}
-      \caption{\textbf{burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover the respective year.}
+      \caption{\textbf{burial type} development: Summe der \textsuperscript{14}C-Datierungen deren $2\sigma$ Bereich das jeweilige Jahr enthält.}
     \end{figure}
   \end{column}
   \begin{column}{0.35\textwidth}
@@ -135,17 +135,17 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Individual \textsuperscript{14}C dates to region wise \textbf{time series} of burial rite \textbf{presence}
+      Anpassung der Datenstruktur: Von einzelnen \textsuperscript{14}C-Datierungen zu regionalen \textbf{Zeitreihen} der \textbf{Anwesenheit} bestimmter Bestattungssitten.
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- Proportions
+## Regionale Zeitreihen -- Relative Anteile
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_proportions_regions_burial_type.jpeg}
-      \caption{\textbf{burial type} development: Year wise proportions of dates. \textit{unknown} is filtered out.}
+      \caption{\textbf{burial type} Entwicklung: Jahrweise Anteile der Bestattungssitten. \textit{unknown} wurde entfernt.}
     \end{figure}
   \end{column}
   \begin{column}{0.35\textwidth}
@@ -162,7 +162,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Time series of absolute appearances to \textbf{time series} of burial rite \textbf{proportions} -- \textbf{burial rite proxy}
+      Anpassung der Datenstruktur: Von Zeitreihen der absoluten Anzahl zu  \textbf{Zeitreihen} der \textbf{Anteile} -- \textbf{ein Proxy}
     \end{minipage}}%
 \end{textblock*}
 
