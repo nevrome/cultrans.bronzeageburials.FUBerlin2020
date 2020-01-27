@@ -166,6 +166,12 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
+## Beobachtungen und Hypothesen
+
+- **Punktdaten in Raum und Zeit** lassen sich zu **Proxies** umwandeln.
+
+- Die **wichtigsten Entwicklungen** in der Verteilung europäisch-bronzezeitlicher Bestattungssitten lassen sich mit dieser **Radiokarbondatensammlung nachvollziehen**. 
+
 # Kulturelle Distanz, räumliche Distanz und Korrelation
 
 ## Kulturelle Distanz messen
@@ -256,51 +262,51 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation of **Burial Type** and **Burial Construction** Distance
+## Korrelation kultureller Distanzen
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
-    \caption{Correlation of \textbf{burial type} and \textbf{burial construction} mean SED in time slices of 200 years. \newline Each double point represents one region-region relationship.}
+    \caption{Korrelation der mittleren \textbf{burial type} und \textbf{burial construction} QED in 200 Jahre Zeitscheiben. Jeder Doppelpunkt repräsentiert ein Regionenpaar.}
   \end{figure}
 \end{adjustwidth}
 
-\begin{textblock*}{60pt}(290pt,130pt)
+\begin{textblock*}{60pt}(295pt,130pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The distances of \textbf{burial type} and \textbf{construction} do \textbf{not correlate} -- except maybe in the late Early Bronze Age
+      Die \textbf{burial type} und \textbf{construction} Distanzen \textbf{korrelieren nicht} -- außer vielleicht in der späten Frühbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
-## Spatial Distance Classes
+## Definition räumlicher Distanzklassen
 
-![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
+![Räumliches Interaktionsnetzwerk und Definition von Distanzklassen](figures/general_map_distance_network.jpeg){ height=85% }
 
 \begin{textblock*}{100pt}(15pt,50pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The definition of artificial regions as units of analysis makes distance measures difficult. \textbf{Ordinally scaled distance classes} are the only valid option here.
+      Die künstlichen Analyseregionen erschweren die Messung räumlicher Distanzen. \textbf{Ordinalskalierte Distanzklassen} verbleiben als einzige Option.
     \end{minipage}}%
 \end{textblock*}
 
-## The complete distance network: Correlation of cultural and spatial distance
+## Ergebnis: Korrelation kultureller und räumlicher Distanz
 
-![Time series of cultural and spatial distance correlation. 200 years time slots. Mantel statistics with Pearson correlation coefficient and Spearman's rank correlation.](figures/correlation_time_series.jpeg){ height=85% }
+![Zeitreihen der Korrelation kultureller und räumlicher Distanz. 200 Jahr Zeitfenster. Mantel Statistik mit Pearson's Korrelationskoeffizient und Spearman's Rangkorrelation.](figures/correlation_time_series.jpeg){ height=80% }
 
 \textblockcolour{burialtype}
 
-\begin{textblock*}{70pt}(285pt,40pt)
+\begin{textblock*}{70pt}(285pt,130pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{A:} burial type \& spatial distance \newline \newline
-      Weak correlation in the EBA, negative 
-      correlation from the MBA
+      Schwache Korrelation in der Frühbronzezeit,
+      \textbf{negative} in der Spätbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
@@ -312,8 +318,8 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{B:} burial construction \& spatial distance \newline \newline
-      Weak correlation in the EBA, no
-      correlation in the LBA 
+      Schwache Korrelation in der Frühbronzezeit,
+      keine in der Spätbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
@@ -325,9 +331,19 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{C\&D:} burial type \& burial construction distance \newline \newline
-      No significant correlation 
+      Keine signifikante Korrelation
     \end{minipage}}%
 \end{textblock*}
+
+## Beobachtungen und Hypothesen
+
+- Die Ausbreitung der Brandbestattungssitte und Flach- und Hügelgrabtraditionen scheinen **weitestgehend unabhängig** voneinander abzulaufen
+
+- Beide Prozesse scheinen **weitestgehend unabhängig von räumlicher Distanz** abzulaufen, abgesehen von der Frühbronzezeit
+
+- Große Phänomene wie **Tumulus Kultur** und **Urnenfelder Kultur** scheinen sich auf diesem Maßstab **nicht in einfachen Diffusionsprozessen** auszubreiten
+
+- Andere, nicht unmittelbar räumlich definierte **Interaktionsnetzwerke** könnten die Entwicklung besser erklären: z.B. Elitennetzwerke
 
 # Interpolation und Gruppen
 
