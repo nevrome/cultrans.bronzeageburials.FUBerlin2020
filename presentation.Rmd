@@ -360,11 +360,11 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Punkte in Raum und Zeit: 3D
 
-![](../cultrans.bronzeageburials.article2020/analysis/figures/3D_general.png)
+![](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_basic.png)
 
 ## 3D Tesselation: Idee
 
-Idee + 3D
+![](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png)
 
 ## 3D Tesselation: Burial Type
 
