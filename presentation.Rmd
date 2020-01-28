@@ -377,7 +377,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Gaussprozessregression: Idee
 
-Idee + 3D
+![...](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_gpr_burial_type.png){ height=85% }
 
 ## Gaussprozessregression: Burial Type
 
