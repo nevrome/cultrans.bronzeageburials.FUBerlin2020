@@ -347,6 +347,60 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 # Interpolation und Gruppen
 
+## Punkte in Raum und Zeit: 2D
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/map_timeslices.jpeg}
+    \caption{Plot matrix von Datierungen an Gräbern durch die Zeit. \newline 
+    200 Jahre Zeitscheiben.
+    }
+  \end{figure}
+\end{adjustwidth}
+
+## Punkte in Raum und Zeit: 3D
+
+![](../cultrans.bronzeageburials.article2020/analysis/figures/3D_general.png)
+
+## 3D Tesselation: Idee
+
+Idee + 3D
+
+## 3D Tesselation: Burial Type
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/bleiglas_matrix_burial_type.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
+## Gaussprozessregression: Idee
+
+Idee + 3D
+
+## Gaussprozessregression: Burial Type
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_matrix_burial_type.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
+## Gaussprozessregression: Gruppen nach diachronem Verhalten
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_iterative_bc+bt_3_sep.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
+Gruppenabbildung
+
+## Beobachtungen und Hypothesen
+
 # Cultural Evolution und Bestattungssitten
 
 # Ideenausbreitung simulieren
