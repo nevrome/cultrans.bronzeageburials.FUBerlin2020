@@ -420,7 +420,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Das R Paket \textbf{laGP} ist eine besonders schnelle Implementierung von GPR.
+      Das R Paket \textbf{laGP} ist eine besonders schnelle Implementierung von GPR
     \end{minipage}}%
 \end{textblock*}
 
@@ -447,7 +447,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
-    \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum.}
+    \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum mit durchgehend hinreichender Informationsdichte.}
   \end{figure}
 \end{adjustwidth}
 
@@ -456,29 +456,55 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
-    \caption{Klassifizierung }
+    \caption{Klassifizierung der Vorhersageergebnisse. Mittelwert und Standardabweichung für jedes Cluster in jedem Zeitschritt.}
   \end{figure}
 \end{adjustwidth}
+
+\begin{textblock*}{100pt}(240pt,235pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Die diachronen \textbf{Zeitsäulen} lassen sich mit Clusteranalyse (\textbf{kmeans}) klassifizieren
+    \end{minipage}}%
+\end{textblock*}
 
 ## Gruppen im diachronen Verhalten: Mittelwert
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_map.png}
-    \caption{...}
+    \caption{Kartierung der Cluster.}
   \end{figure}
 \end{adjustwidth}
 
-## Gruppen im diachronen Verhalten: Iterativ unter Beachtung von Messungenauigkeit
+## Gruppen im diachronen Verhalten: Iteration und Sampling
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_iterative_bc+bt_3_map.png}
-    \caption{...}
+    \caption{Kartierung der Cluster nach 100 Wiederholungen.}
   \end{figure}
 \end{adjustwidth}
 
+\begin{textblock*}{160pt}(180pt,215pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Aufgrund der Ungenauigkeit von Eingabedaten (\textsuperscript{14}C) und Interpolationsergebnissen (GPR) genügt es nicht, jeweils mit Mittelwerten zu arbeiten. \newline \textbf{Das Ergebnis bleibt jedoch stabil}
+    \end{minipage}}%
+\end{textblock*}
+
 ## Beobachtungen und Hypothesen
+
+- **Punktdaten in Raum und Zeit** lassen sich vielfältig visualisieren und die **3D Perspektive** kann zu nützlichen 2D Visualisierungen führen.
+
+- Gut durchdachte **Interpolation** erlaubt es, **Hypothesen** zu Zeiten und Räumen ohne Messungen zu formulieren.
+
+- **Gaussprozessregression** erlaubt Interpolation mit einer **Unsicherheitsabschätzung**.
+
+- Interpolierte **Zeitreihen** lassen sich zur **Gruppendefinition** heranziehen.
 
 # Cultural Evolution und Bestattungssitten
 
