@@ -388,6 +388,15 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \end{figure}
 \end{adjustwidth}
 
+## Gaussprozessregression: Burial Construction
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_construction.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
 ## Ga
 
 \begin{adjustwidth}{-3em}{-3em}
