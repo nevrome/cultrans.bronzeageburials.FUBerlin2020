@@ -383,7 +383,25 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_matrix_burial_type.png}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_type.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
+## Ga
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
+
+## Ga
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
     \caption{...}
   \end{figure}
 \end{adjustwidth}
@@ -392,12 +410,19 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_iterative_bc+bt_3_sep.png}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_map.png}
     \caption{...}
   \end{figure}
 \end{adjustwidth}
 
-Gruppenabbildung
+## Gaussprozessregression: Gruppen nach diachronem Verhalten
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_iterative_bc+bt_3_map.png}
+    \caption{...}
+  \end{figure}
+\end{adjustwidth}
 
 ## Beobachtungen und Hypothesen
 
