@@ -84,8 +84,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/general_map_research_area_timeslices.jpeg}
-    \caption{Plot matrix von Datierungen an Gräbern durch die Zeit. \newline 
-    200 Jahre Zeitscheiben.
+    \caption{Plotmatrix: \textsuperscript{14}C-Daten an Gräbern durch die Zeit.
     }
   \end{figure}
 \end{adjustwidth}
@@ -267,7 +266,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
-    \caption{Korrelation der mittleren \textbf{burial type} und \textbf{burial construction} QED in 200 Jahre Zeitscheiben. Jeder Doppelpunkt repräsentiert ein Regionenpaar.}
+    \caption{Korrelation der mittleren \textbf{burial type} und \textbf{burial construction} QED in Zeitscheiben von 200 Jahren. Jeder Doppelpunkt repräsentiert ein Regionenpaar.}
   \end{figure}
 \end{adjustwidth}
 
@@ -352,39 +351,85 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/map_timeslices.jpeg}
-    \caption{Plot matrix von Datierungen an Gräbern durch die Zeit. \newline 
-    200 Jahre Zeitscheiben.
-    }
+    \caption{Plotmatrix: \textsuperscript{14}C-Daten an Gräbern durch die Zeit.}
   \end{figure}
 \end{adjustwidth}
 
 ## Punkte in Raum und Zeit: 3D
 
-![...](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_basic.png){ height=85% }
+![Alle Datierungen in Raum (x- und y-Achse) und Zeit (z-Achse).](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_basic.png){ height=83% }
 
-## 3D Tesselation: Idee
+## 3D Tesselation
 
-![...](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png){ height=85% }
+![Kanten der mit Tessellation abgeleiteten, raumfüllenden Polygone. Alle Dimensionen zwischen 0 und 1 skaliert. ](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png){ height=83% }
+
+\begin{textblock*}{70pt}(10pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Tessellation (Parkettierung) bezeichnet die \textbf{überlappunsfreie} Auffüllung von Flächen und Räumen mit \textbf{Polygonen} 
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{70pt}(285pt,200pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Die Software \textbf{voro++} erlaubt die einfache Anwendung dieser Technik
+    \end{minipage}}%
+\end{textblock*}
 
 ## 3D Tesselation: Burial Type
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/bleiglas_matrix_burial_type.png}
-    \caption{...}
+    \caption{Zeitscheibenschnitte durch den tesselierten Raum für die Variable \textbf{burial type}.}
   \end{figure}
 \end{adjustwidth}
 
-## Gaussprozessregression: Idee
+## Gaussprozessregression
 
-![...](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_gpr_burial_type.png){ height=85% }
+![Mit Gaussprozessregression interpolierte Punkte zwischen den tatsächlichen Beobachtungen für die Variable **burial type**.](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_gpr_burial_type.png){ height=83% }
+
+\begin{textblock*}{70pt}(10pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Gaussprozess\-regression (Kriging) ist eine \textbf{Interpolationsmethode} für \textbf{n Dimensionen}. Sie liefert für jede Vorhersage ein \textbf{Unsicherheitsmaß}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{70pt}(285pt,20pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Quadrierter, exponentieller Kernel
+      $$K_{ij} = e^{\frac{-\|x_i - x_j\|^2}{\theta}}$$ 
+      mit $\theta = 50km$ und $\theta = 200 \text{ Jahre}$
+      sowie ein angenommener Eingabefehler von $0.2$
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{70pt}(285pt,200pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Das R Paket \textbf{laGP} ist eine besonders schnelle Implementierung von GPR.
+    \end{minipage}}%
+\end{textblock*}
 
 ## Gaussprozessregression: Burial Type
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_type.png}
-    \caption{...}
+    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable \textbf{burial type}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
 
@@ -393,29 +438,29 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_construction.png}
-    \caption{...}
+    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable \textbf{burial construction}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
 
-## Ga
+## Diachronen Verhaltens an jedem Punkt im Raum
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
-    \caption{...}
+    \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum.}
   \end{figure}
 \end{adjustwidth}
 
-## Ga
+## Gruppen mit ähnlichem diachronen Verhalten
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
-    \caption{...}
+    \caption{Klassifizierung }
   \end{figure}
 \end{adjustwidth}
 
-## Gaussprozessregression: Gruppen nach diachronem Verhalten
+## Gruppen im diachronen Verhalten: Mittelwert
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
@@ -424,7 +469,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \end{figure}
 \end{adjustwidth}
 
-## Gaussprozessregression: Gruppen nach diachronem Verhalten
+## Gruppen im diachronen Verhalten: Iterativ unter Beachtung von Messungenauigkeit
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
