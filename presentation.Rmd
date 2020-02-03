@@ -539,18 +539,32 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 # Cultural Evolution und Bestattungssitten
 
-## Cultural Evolution Theorie
+## Cultural Evolution Theorie: Definition
 
-**Definition**
+- Die Prozesse der **natürlichen Entwicklung** von Spezies durch Evolution wirken auch bei der **menschlichen Kulturentwicklung**
 
-- Die Prozesse der natürlichen Entwicklung von Spezies durch Evolution wirken auch bei der menschlichen Kulturentwicklung 
-- Mechanismen der Evolution wie Drift, Flow, Selektion und Mutation sind entscheidend dafür, welche Verhaltensweisen, Ideen und Innovationen sich langfristig durchsetzen können. 
-- Biologische Terminologie und Methodik kann auch in anthropologischen Kontexten sinnvoll eingesetzt werden (Evolutionary Archaeology)
+- **Mechanismen der Evolution** wie Drift, Flow, Selektion und Mutation sind entscheidend dafür, welche **Verhaltensweisen, Ideen und Innovationen** sich langfristig **durchsetzen** können
 
-**Geschichte**
+- **Biologische Terminologie und Methodik** kann auch in **anthropologischen Kontexten** sinnvoll eingesetzt werden
 
-- Evolutionismus und Sozialdarwinismus
-- Kulturrelativismus und Neoevolutionismus
+## Cultural Evolution Theorie: Geschichte
+
+- **Evolutionismus** (1. Hälfte 19. Jhd. -- 1. Hälfte 20. Jhd.)
+  - Dogma: schrittweiser, kulturellen **Aufstieg**, Zunahme organisatorischer **Komplexität**, **Teleologie** der Kulturgeschichte, Marktwirtschaftlicher **Wettbewerb**
+  - **Vergleichende Methode**
+  - Inspiration für rassistische und **sozialdarwinistische** Theorien: *Nie und nirgends sind Staaten anders entstanden als durch Unterwerfung fremder Stämme seitens eines oder mehrerer verbündeter oder geeinigter Stämme.* - Gumplowicz (1885), 99.
+\newline
+- **Kulturrelativismus** und **Historischer Partikularismus** (1. Hälfte 20. Jhd.)
+  - Kulturanthropologie und Boasianer
+  - Dogma: Fokus auf den jeweiligen **naturräumlichen, historischen und soziopolitischen Kontext** einzelner kultureller Ausprägung **ohne Hierarchisierung**
+  - Induktive, empirische Detailanalyse, Interdisziplinarität, Datensammlung
+\newline
+- **Neoevolutionismus** (1. - 2. Hälfte 20. Jhd.)
+  - Dogma: Ablehnung sozialdarwinistischen Biodeterminismus, aber dennoch bewusste **Suche nach Gesetzmäßigkeiten soziokultureller Prozesse**
+  - Vere Gordon Childe, Karl Wittfogel, Leslie White, George Murdock, später Elman Service, Morton Fried, Roy Rappaport, Lewis Binford
+
+## Cultural Evolution Theorie: Geschichte
+
 - Memetik
 - Evolutionary Psychology, Human Behavioural Ecology, Dual Inheritance Theory
 
