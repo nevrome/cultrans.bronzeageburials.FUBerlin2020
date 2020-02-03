@@ -607,35 +607,27 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Bestattungssitten und Cultural Evolution
 
-**Rituale und Cultural Complexity**
+Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable
 
-**Kostenaufwändige Demonstration**
+**Pragmatische Perspektive**
 
-**Trauer als abhängige Variable**
+Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt **sozialen Beziehungen**.
+
+Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können deswegen als **Neutral traits** behandelt werden.
+
+Folgt man der Populationsbiologie, sind die wichtigsten Mechanismen in ihrer Ausbreitung damit **Innovation**, **Drift** and **Flow**, nicht **Selektion**.
+
+- **Drift:** In einer Gruppe gleichwertiger Eigenschaften wird sich mit der Zeit immer eine zufällig durchsetzen.
+
+- **Flow:** Informationstransfer zwischen Gruppen führt zu Synchronisation.
+
+Simulationskonzept: 
+
+- Ideen sind handlungsfähige **Agenten** mit einfachem Verhalten: **Expansion**
+
+- Ideen leben in eine konfigurierbaren, diachronen **Populationsnetzwerk**
 
 # Ideenausbreitung simulieren
-
-## Preliminary Considerations
-
-Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They exist in **social space** and their spread depends on **social relationships**.
-
-\usebeamertemplate*{title separator}
-
-Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**.
-
-The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**.
-
-- **Drift:** Individual traits will dominate due to stochastic processes
-
-- **Flow:** Information transfer causes synchronization across group boundaries
-
-\usebeamertemplate*{title separator}
-
-Simulation concept: 
-
-- Ideas are **entities** with simple behaviour: **greedy expansion**
-
-- Ideas life in a configurable, diachronic **population network**
 
 ## Population Graph Creation
 
