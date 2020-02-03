@@ -34,15 +34,10 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \end{figure}
 
 - Einführung zum Datensatz
-
 - Kulturelle Distanz, räumliche Distanz und Korrelation
-
 - Interpolation und Gruppen
-
 - Cultural Evolution und Bestattungssitten
-
 - Ideenausbreitung simulieren
-
 
 # Einführung zum Datensatz
 
@@ -289,6 +284,42 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       Die künstlichen Analyseregionen erschweren die Messung räumlicher Distanzen. \textbf{Ordinalskalierte Distanzklassen} verbleiben als einzige Option.
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation of **Burial Type** and **Spatial** Distance
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
+    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+  \end{figure}
+\end{adjustwidth}
+
+\begin{textblock*}{60pt}(290pt,130pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation of **Burial Construction** and **Spatial** Distance
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
+    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+  \end{figure}
+\end{adjustwidth}
+
+\begin{textblock*}{60pt}(290pt,130pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
     \end{minipage}}%
 \end{textblock*}
 
@@ -716,69 +747,4 @@ Simulation concept:
 # Conclusion
 
 ## Observations and Hypotheses
-
-- The **main trends** in the distribution of burial rites in Bronze Age Europe **can be detected** in **bulk radiocarbon data**
-
-- The diffusion of the **cremation funeral tradition** and **traditions of flat vs. mound graves** are **mostly independent**
-
-- Both processes are **mostly independent** of **spatial distance**, except for some time periods in the Early Bronze Age
-
-- **Big phenomena** like the ones initiated by **Tumulus culture** and **Urnfield culture** do not spread in simple diffusion processes
-
-- **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
-
-# Bonusfolien  
-  
-## Parallel Developments of Burial Type and Burial Construction Distance?
-
-\begin{columns}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{figures/regions_squared_euclidian_distance_burial_type.jpeg}
-      \caption{\textbf{burial type} Development of SED to all the others for each region.}
-    \end{figure}
-  \end{column}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
-      \caption{\textbf{burial construction}\newline}
-    \end{figure}
-  \end{column}
-\end{columns}
-
-## Correlation of **Burial Type** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
-    \end{minipage}}%
-\end{textblock*}
-
-## Correlation of **Burial Construction** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
-    \end{minipage}}%
-\end{textblock*}
 
