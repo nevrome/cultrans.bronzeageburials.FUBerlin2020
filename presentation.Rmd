@@ -602,9 +602,15 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 *Smith, E. A. (2000). “Three Styles in the Evolutionary Analysis of Human Behavior”. In: Adaptation and Human Behavior: An Anthropological Perspective, S. 27–46.*
 
-**Themenfelder: Genetische Determination vs. Kulturelles Lernen, Cultural Niche Construction, Cultural Complexity**
+**Aktuelle Themenfelder in der Cultural Evolution Forschung**
 
 *Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. doi: 10.1073/ pnas.1620732114.*
+
+**Cultural Transmission in der Archäologie**
+
+*Eerkens, J. W. und C. P. Lipo (2007). “Cultural Transmission Theory and the Archaeological Record: Providing Context to Understanding Variation and Temporal Changes in Material Culture”. In: J. Archaeol. Res. 15.3, S. 239–274. https://doi.org/10.1007/s10814-007-9013-z.*
+
+*Garvey, R. (2018). “Current and Potential Roles of Archaeology in the Development of Cultural Evolutionary Theory”. In: Phil. Trans. R. Soc. B 373.1743, S. 20170057. doi: 10.1098/rstb.2017.0057.*
 
 ## Cultural Transmission
 
@@ -618,22 +624,20 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 *Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable*
 
-**Pragmatische Perspektive**
-
 Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt **sozialen Beziehungen**.
 
-Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können deswegen als **Neutral traits** behandelt werden.
+Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können als **Neutral traits** behandelt werden.
 
 Folgt man der Populationsbiologie, sind die wichtigsten Mechanismen in ihrer Ausbreitung damit **Innovation**, **Drift** and **Flow**, nicht **Selektion**.
 
 - **Drift:** In einer Gruppe gleichwertiger Eigenschaften wird sich mit der Zeit immer eine zufällig durchsetzen.
-
 - **Flow:** Informationstransfer zwischen Gruppen führt zu Synchronisation.
+
+\noindent\rule{8cm}{0.4pt}
 
 Simulationskonzept: 
 
 - Ideen sind handlungsfähige **Agenten** mit einfachem Verhalten: **Expansion**
-
 - Ideen leben in eine konfigurierbaren, diachronen **Populationsnetzwerk**
 
 # Ideenausbreitung simulieren
