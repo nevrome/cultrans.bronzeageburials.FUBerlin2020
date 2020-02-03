@@ -614,17 +614,31 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Cultural Transmission
 
-**Social Learning**
+Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren **Regeln** und entfalten weitreichende **Wirkung** im sozialen Raum ihrer Träger.
 
-**Biased Transmission**
+- **Social Learning**
+  - Social Learning ist der Überbegriff für **alle Mechanismen der Übertragung von Ideen und Verhalten von einem Organismus auf den nächsten**
+  - Reichweite zwischen **genetischer Anpassung** und **individuellem Lernen**
+  -  **Vertical Transmission** und **Horizontal Transmission**
+\newline
+- **Biased Transmission**
+  - Menschen treffen die Entscheidung ob sie eine Idee oder ein Verhaltensmuster übernehmen **nicht zufällig**
+  - Entweder sie evaluieren aufwändig, oder sie folgen ihrer **Intuition**
+  - **Conformity Bias**, **Novelty Bias**, **Frequency Bias**, **Prestige Bias**, **Homophily**
+\newline
+- **Stylistic Variability**
+  - Ideen lassen sich in zwei Kategorien gliedern: 
+  1. **Functional traits** (Nutzung einer bestimmten Getreideform, die Kompetenz bestimmte Werkzeuge oder Waffen zu fertigen oder soziale Anerkennung von Kinderreichtum) 
+  2. **Stylistic traits** (Keramikverzierung, Trachtmode oder Schmuckform)
+  - **Functional traits** setzen sich oft entsprechend ihrer Nützlichkeit durch, aber wie verhalten sich **Stylistic traits**?
 
-**Stylistic Variability**
+**Wie lassen sich Bestattungssitten hier einordnen?**
 
 ## Bestattungssitten und Cultural Evolution
 
 *Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable*
 
-Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt **sozialen Beziehungen**.
+Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt (vertikalen?) **sozialen Beziehungen**.
 
 Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können als **Neutral traits** behandelt werden.
 
