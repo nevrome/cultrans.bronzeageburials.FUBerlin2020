@@ -744,7 +744,20 @@ Simulation concept:
     \end{minipage}}%
 \end{textblock*}
 
-# Conclusion
-
 ## Observations and Hypotheses
 
+##
+
+\LARGE
+
+\begin{figure}
+  \centering
+  \includegraphics[height=4cm]{figures/niels_bach_pyre}
+  \caption*{\tiny \textcopyright \ Niels Bach - http://nielsbach.blogspot.com}
+\end{figure}
+
+- Einführung zum Datensatz
+- Kulturelle Distanz, räumliche Distanz und Korrelation
+- Interpolation und Gruppen
+- Cultural Evolution und Bestattungssitten
+- Ideenausbreitung simulieren
