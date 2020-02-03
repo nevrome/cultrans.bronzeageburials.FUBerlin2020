@@ -604,13 +604,13 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 **Aktuelle Themenfelder in der Cultural Evolution Forschung**
 
-*Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. doi: 10.1073/ pnas.1620732114.*
+*Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. https://doi.org/10.1073/pnas.1620732114.*
 
 **Cultural Transmission in der Archäologie**
 
 *Eerkens, J. W. und C. P. Lipo (2007). “Cultural Transmission Theory and the Archaeological Record: Providing Context to Understanding Variation and Temporal Changes in Material Culture”. In: J. Archaeol. Res. 15.3, S. 239–274. https://doi.org/10.1007/s10814-007-9013-z.*
 
-*Garvey, R. (2018). “Current and Potential Roles of Archaeology in the Development of Cultural Evolutionary Theory”. In: Phil. Trans. R. Soc. B 373.1743, S. 20170057. doi: 10.1098/rstb.2017.0057.*
+*Garvey, R. (2018). “Current and Potential Roles of Archaeology in the Development of Cultural Evolutionary Theory”. In: Phil. Trans. R. Soc. B 373.1743, S. 20170057. https://doi.org/10.1098/rstb.2017.0057.*
 
 ## Cultural Transmission
 
