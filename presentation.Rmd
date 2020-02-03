@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 - Einführung zum Datensatz
 - Kulturelle Distanz, räumliche Distanz und Korrelation
-- Interpolation und Gruppen (new!)
+- Interpolation und Gruppen (neu!)
 - Cultural Evolution
 - Ideenausbreitung simulieren
 
@@ -292,7 +292,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+    \caption{\textbf{burial type}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitschritten von 200 Jahren.}
   \end{figure}
 \end{adjustwidth}
 
@@ -301,7 +301,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
+      Räumliche Distanz ist nur kurz vor der großen Transformation in der Mittelbronzezeit relevant
     \end{minipage}}%
 \end{textblock*}
 
@@ -310,7 +310,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
+    \caption{\textbf{burial construction}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitschritten von 200 Jahren.}
   \end{figure}
 \end{adjustwidth}
 
@@ -319,7 +319,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
+      Räumliche Distanz ist generall \textbf{relevanter}, besonders in der Frühbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
