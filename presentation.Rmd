@@ -35,8 +35,8 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 - Einführung zum Datensatz
 - Kulturelle Distanz, räumliche Distanz und Korrelation
-- Interpolation und Gruppen
-- Cultural Evolution und Bestattungssitten
+- Interpolation und Gruppen (new!)
+- Cultural Evolution
 - Ideenausbreitung simulieren
 
 # Einführung zum Datensatz
@@ -546,7 +546,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 - Interpolierte **Zeitreihen** lassen sich zur **Gruppendefinition** heranziehen.
 
-# Cultural Evolution und Bestattungssitten
+# Cultural Evolution
 
 ## Cultural Evolution Theorie: Definition
 
@@ -594,24 +594,6 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \newline
 - **Memetik** (*1976 -- †2005)
 
-## Literatur dazu
-
-**Geschichte**
-
-*Petermann, W. (2004). Die Geschichte der Ethnologie. Wuppertal.*
-
-*Smith, E. A. (2000). “Three Styles in the Evolutionary Analysis of Human Behavior”. In: Adaptation and Human Behavior: An Anthropological Perspective, S. 27–46.*
-
-**Aktuelle Themenfelder in der Cultural Evolution Forschung**
-
-*Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. https://doi.org/10.1073/pnas.1620732114.*
-
-**Cultural Transmission in der Archäologie**
-
-*Eerkens, J. W. und C. P. Lipo (2007). “Cultural Transmission Theory and the Archaeological Record: Providing Context to Understanding Variation and Temporal Changes in Material Culture”. In: J. Archaeol. Res. 15.3, S. 239–274. https://doi.org/10.1007/s10814-007-9013-z.*
-
-*Garvey, R. (2018). “Current and Potential Roles of Archaeology in the Development of Cultural Evolutionary Theory”. In: Phil. Trans. R. Soc. B 373.1743, S. 20170057. https://doi.org/10.1098/rstb.2017.0057.*
-
 ## Cultural Transmission
 
 Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren **Regeln** und entfalten weitreichende **Wirkung** im sozialen Raum ihrer Träger.
@@ -632,7 +614,25 @@ Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren *
   2. **Stylistic traits** (Keramikverzierung, Trachtmode oder Schmuckform)
   - **Functional traits** setzen sich oft entsprechend ihrer Nützlichkeit durch, aber wie verhalten sich **Stylistic traits**?
 
-**Wie lassen sich Bestattungssitten hier einordnen?**
+## Literaturempfehlungen
+
+**Geschichte**
+
+*Petermann, W. (2004). Die Geschichte der Ethnologie. Wuppertal.*
+
+*Smith, E. A. (2000). “Three Styles in the Evolutionary Analysis of Human Behavior”. In: Adaptation and Human Behavior: An Anthropological Perspective, S. 27–46.*
+
+**Aktuelle Themenfelder in der Cultural Evolution Forschung**
+
+*Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. https://doi.org/10.1073/pnas.1620732114.*
+
+**Cultural Transmission in der Archäologie**
+
+*Eerkens, J. W. und C. P. Lipo (2007). “Cultural Transmission Theory and the Archaeological Record: Providing Context to Understanding Variation and Temporal Changes in Material Culture”. In: J. Archaeol. Res. 15.3, S. 239–274. https://doi.org/10.1007/s10814-007-9013-z.*
+
+*Garvey, R. (2018). “Current and Potential Roles of Archaeology in the Development of Cultural Evolutionary Theory”. In: Phil. Trans. R. Soc. B 373.1743, S. 20170057. https://doi.org/10.1098/rstb.2017.0057.*
+
+# Ideenausbreitung simulieren
 
 ## Bestattungssitten und Cultural Evolution
 
@@ -653,8 +653,6 @@ Simulationskonzept:
 
 - Ideen sind handlungsfähige **Agenten** mit einfachem Verhalten: **Expansion**
 - Ideen leben in eine konfigurierbaren, diachronen **Populationsnetzwerk**
-
-# Ideenausbreitung simulieren
 
 ## Population Graph Creation
 
