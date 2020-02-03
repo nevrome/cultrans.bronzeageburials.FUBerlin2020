@@ -421,6 +421,15 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \end{figure}
 \end{adjustwidth}
 
+\begin{textblock*}{160pt}(180pt,245pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Das R Paket \textbf{bleiglas} führt die erforderlichen Berechnungen automatisch aus.
+    \end{minipage}}%
+\end{textblock*}
+
 ## Gaussprozessregression
 
 ![Mit Gaussprozessregression interpolierte Punkte zwischen den tatsächlichen Beobachtungen für die Variable **burial type**.](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_gpr_burial_type.png){ height=83% }
@@ -607,7 +616,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Bestattungssitten und Cultural Evolution
 
-Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable
+*Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable*
 
 **Pragmatische Perspektive**
 
