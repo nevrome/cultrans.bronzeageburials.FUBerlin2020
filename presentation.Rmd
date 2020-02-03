@@ -539,6 +539,45 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 # Cultural Evolution und Bestattungssitten
 
+## Cultural Evolution Theorie
+
+**Definition**
+
+- Die Prozesse der natürlichen Entwicklung von Spezies durch Evolution wirken auch bei der menschlichen Kulturentwicklung 
+- Mechanismen der Evolution wie Drift, Flow, Selektion und Mutation sind entscheidend dafür, welche Verhaltensweisen, Ideen und Innovationen sich langfristig durchsetzen können. 
+- Biologische Terminologie und Methodik kann auch in anthropologischen Kontexten sinnvoll eingesetzt werden (Evolutionary Archaeology)
+
+**Geschichte**
+
+- Evolutionismus und Sozialdarwinismus
+- Kulturrelativismus und Neoevolutionismus
+- Memetik
+- Evolutionary Psychology, Human Behavioural Ecology, Dual Inheritance Theory
+
+## Themen und Konflikte
+
+**Menschliches Verhalten: Genetische Determination vs. Kulturelles Lernen**
+
+**Mensch-Umwelt Interaktion: Cultural Niche Construction**
+
+**Entstehung und Wirkung von Innovationen: Cultural Complexity**
+
+## Cultural Transmission
+
+**Social Learning**
+
+**Biased Transmission**
+
+**Stylistic Variability**
+
+## Bestattungssitten und Cultural Evolution
+
+**Rituale und Cultural Complexity**
+
+**Kostenaufwändige Demonstration**
+
+**Trauer als abhängige Variable**
+
 # Ideenausbreitung simulieren
 
 ## Preliminary Considerations
