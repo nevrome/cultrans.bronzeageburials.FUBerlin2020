@@ -547,9 +547,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 - **Biologische Terminologie und Methodik** kann auch in **anthropologischen Kontexten** sinnvoll eingesetzt werden
 
-## Cultural Evolution Theorie: Geschichte
-
-Anfang des 19. Jahrhunderts bis 1970. 
+## Cultural Evolution Theorie: Anfang des 19. Jhds. bis 1970. 
 
 - **Evolutionismus**
   - schrittweiser, kulturellen **Aufstieg**, Zunahme organisatorischer **Komplexität**, **Teleologie** der Kulturgeschichte, Marktwirtschaftlicher **Wettbewerb**
@@ -565,9 +563,7 @@ Anfang des 19. Jahrhunderts bis 1970.
   - Ablehnung sozialdarwinistischen Biodeterminismus, aber dennoch bewusste **Suche nach Gesetzmäßigkeiten soziokultureller Prozesse**
   - Vere Gordon Childe, Karl Wittfogel, Leslie White, George Murdock, später Elman Service, Morton Fried, Roy Rappaport, Lewis Binford
 
-## Cultural Evolution Theorie: Geschichte
-
-1970er bis in die Gegenwart:
+## Cultural Evolution Theorie: 1970er bis in die Gegenwart
 
 - **Evolutionary Psychology**
   - Menschlichen Verhalten vor dem Hintergrund seiner **evolutionären Geschichte**
@@ -589,13 +585,17 @@ Anfang des 19. Jahrhunderts bis 1970.
 \newline
 - **Memetik** (*1976 -- †2005)
 
-## Themen und Konflikte
+## Literatur dazu
 
-**Menschliches Verhalten: Genetische Determination vs. Kulturelles Lernen**
+**Geschichte**
 
-**Mensch-Umwelt Interaktion: Cultural Niche Construction**
+*Petermann, W. (2004). Die Geschichte der Ethnologie. Wuppertal.*
 
-**Entstehung und Wirkung von Innovationen: Cultural Complexity**
+*Smith, E. A. (2000). “Three Styles in the Evolutionary Analysis of Human Behavior”. In: Adaptation and Human Behavior: An Anthropological Perspective, S. 27–46.*
+
+**Themenfelder: Genetische Determination vs. Kulturelles Lernen, Cultural Niche Construction, Cultural Complexity**
+
+*Creanza, N., O. Kolodny und M. W. Feldman (2017). “Cultural Evolutionary Theory: How Culture Evolves and Why It Matters”. In: PNAS, S. 201620732. doi: 10.1073/ pnas.1620732114.*
 
 ## Cultural Transmission
 
