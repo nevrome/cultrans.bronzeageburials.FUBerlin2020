@@ -549,24 +549,45 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Cultural Evolution Theorie: Geschichte
 
-- **Evolutionismus** (1. Hälfte 19. Jhd. -- 1. Hälfte 20. Jhd.)
-  - Dogma: schrittweiser, kulturellen **Aufstieg**, Zunahme organisatorischer **Komplexität**, **Teleologie** der Kulturgeschichte, Marktwirtschaftlicher **Wettbewerb**
+Anfang des 19. Jahrhunderts bis 1970. 
+
+- **Evolutionismus**
+  - schrittweiser, kulturellen **Aufstieg**, Zunahme organisatorischer **Komplexität**, **Teleologie** der Kulturgeschichte, Marktwirtschaftlicher **Wettbewerb**
   - **Vergleichende Methode**
   - Inspiration für rassistische und **sozialdarwinistische** Theorien: *Nie und nirgends sind Staaten anders entstanden als durch Unterwerfung fremder Stämme seitens eines oder mehrerer verbündeter oder geeinigter Stämme.* - Gumplowicz (1885), 99.
 \newline
-- **Kulturrelativismus** und **Historischer Partikularismus** (1. Hälfte 20. Jhd.)
+- **Kulturrelativismus** und **Historischer Partikularismus**
   - Kulturanthropologie und Boasianer
-  - Dogma: Fokus auf den jeweiligen **naturräumlichen, historischen und soziopolitischen Kontext** einzelner kultureller Ausprägung **ohne Hierarchisierung**
+  - Fokus auf den jeweiligen **naturräumlichen, historischen und soziopolitischen Kontext** einzelner kultureller Ausprägung **ohne Hierarchisierung**
   - Induktive, empirische Detailanalyse, Interdisziplinarität, Datensammlung
 \newline
-- **Neoevolutionismus** (1. - 2. Hälfte 20. Jhd.)
-  - Dogma: Ablehnung sozialdarwinistischen Biodeterminismus, aber dennoch bewusste **Suche nach Gesetzmäßigkeiten soziokultureller Prozesse**
+- **Neoevolutionismus**
+  - Ablehnung sozialdarwinistischen Biodeterminismus, aber dennoch bewusste **Suche nach Gesetzmäßigkeiten soziokultureller Prozesse**
   - Vere Gordon Childe, Karl Wittfogel, Leslie White, George Murdock, später Elman Service, Morton Fried, Roy Rappaport, Lewis Binford
 
 ## Cultural Evolution Theorie: Geschichte
 
-- Memetik
-- Evolutionary Psychology, Human Behavioural Ecology, Dual Inheritance Theory
+1970er bis in die Gegenwart:
+
+- **Evolutionary Psychology**
+  - Menschlichen Verhalten vor dem Hintergrund seiner **evolutionären Geschichte**
+  - Genetische Langzeitentwicklung der gesamten Spezies
+  - **Environment of Evolutionary Adaptiveness**: Der Mensch ist ideal an das Leben als pleistozäner Jäger- und Sammler angepasst
+  - Themen: Gruppenverhalten, Geschlechterunterschiede, Essverhalten
+\newline
+- **Human Behavioural Ecology**
+  - Menschliches Verhalten vor **ökologischem Hintergrund**
+  - Entscheidungsprozesse des Individuums
+  - **Phenotypic Gambit**: Menschliches Verhalten ist Optimierungsverhalten
+  - Themen: Subsistenz- und Reproduktionsstrategien
+\newline
+- **Dual Inheritance Theory**
+  - Menschliches Verhalten ist nicht (nur) genetisch bestimmt, sondern stärker durch ein **zweites, dynamischeres Vererbungssystem: Kultur**
+  - Kultur folgt einem **eigenen Evolutionsprozess** unter Rückwirkung mit ihren Trägern
+  - Kulturprozesse über einige Generationen
+  - Themen: Entwicklung materieller Kultur, Ideenausbreitung, Fehlanpassungen
+\newline
+- **Memetik** (*1976 -- †2005)
 
 ## Themen und Konflikte
 
