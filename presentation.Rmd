@@ -636,8 +636,6 @@ Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren *
 
 ## Bestattungssitten und Cultural Evolution
 
-*Ansätze: Rituale und Cultural Complexity / Kostenaufwändige Demonstration / Trauer als abhängige Variable*
-
 Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt (vertikalen?) **sozialen Beziehungen**.
 
 Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können als **Neutral traits** behandelt werden.
@@ -654,16 +652,16 @@ Simulationskonzept:
 - Ideen sind handlungsfähige **Agenten** mit einfachem Verhalten: **Expansion**
 - Ideen leben in eine konfigurierbaren, diachronen **Populationsnetzwerk**
 
-## Population Graph Creation
+## Populationsnetzwerk
 
-![Example Population Graph. Arranged with the Fruchterman & Reingold algorithm.](figures/population_graph_connection_001_time_arrow.png){ height=85% }
+![Beispiel eines Populationsnetzwerks. Anordnung nach Fruchterman & Reingold Algorithmus.](figures/population_graph_connection_001_time_arrow.png){ height=80% }
 
 \begin{textblock*}{130pt}(20pt,50pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      \textbf{R Package popgenerator} to create undirected population networks with configurable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intra- and intergroup transmission}, etc.
+      Das \textbf{R Paket popgenerator} erzeugt ein ungerichtetes Populationsnetzwerk mit konfigurierbarer \textbf{Populationsgrößenentwicklung}, \textbf{Gruppenzahl}, \textbf{Grad der Interaktion in und zwischen Gruppen}, etc.
     \end{minipage}}%
 \end{textblock*}
 
@@ -672,7 +670,7 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Every individual's position in social space and time is defined by their \textbf{vertical and horizontal} connections
+      Die Position jedes Individuum in sozialem Raum und Zeit ist durch \textbf{soziale Beziehungen} definiert
     \end{minipage}}%
 \end{textblock*}
 
@@ -681,11 +679,11 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Groups have a \textbf{high degree of internal} and a \textbf{low degree of external} interaction
+      Innerhalb der Gruppen herscht mehr \textbf{Interaktion} als zwischen den Gruppen
     \end{minipage}}%
 \end{textblock*}
 
-## Idea Expansion Simulation
+## Simulation der Ideenausbreitung
 
 ```{cpp eval = FALSE, size = 'footnotesize'}
 ...
@@ -717,11 +715,11 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      \textbf{C++ CLI program gluesless} to simulate idea expansion within the population network
+      \textbf{C++ CLI Software gluesless} um die Ideenausbreitung im Netzwerk zu simulieren
     \end{minipage}}%
 \end{textblock*}
 
-## Simulation Application: Correlation of Spatial and Cultural Distance
+## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
 ![Correlation of cultural and spatial distance over time for **real world observations**.](figures/sed_simulation_step_1.jpeg){ height=88% }  
 
@@ -734,7 +732,7 @@ Simulationskonzept:
     \end{minipage}}%
 \end{textblock*}
 
-## Simulation Application: Correlation of Spatial and Cultural Distance
+## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
 ![**+** Correlation development for **100 simulation runs** with **equal intergroup distance**.](figures/sed_simulation_step_2.jpeg){ height=88%  }
 
@@ -747,7 +745,7 @@ Simulationskonzept:
     \end{minipage}}%
 \end{textblock*}
 
-## Simulation Application: Correlation of Spatial and Cultural Distance
+## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
 ![**+** Diagnostic **boxplots** for simulation runs.](figures/sed_simulation_step_3.jpeg){ height=88%  }
 
@@ -770,7 +768,7 @@ Simulationskonzept:
     \end{minipage}}%
 \end{textblock*}
 
-## Simulation Application: Correlation of Spatial and Cultural Distance
+## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
 ![**+** Diagnostic **dotplots** indicating mantel test results.](figures/sed_simulation_step_4.jpeg){ height=88%  }
 
@@ -793,7 +791,7 @@ Simulationskonzept:
     \end{minipage}}%
 \end{textblock*}
 
-## Simulation Application: Correlation of Spatial and Cultural Distance
+## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
 ![Same plot, but simulations now with **spatial intergroup distance**.](figures/high_spatial_interaction.jpeg){ height=88%  }
 
