@@ -721,40 +721,40 @@ Simulationskonzept:
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![Correlation of cultural and spatial distance over time for **real world observations**.](figures/sed_simulation_step_1.jpeg){ height=88% }  
+![Korrelationsentwicklung räumlicher und kulturller Distanz für **burial type** und **burial construction**.](figures/sed_simulation_step_1.jpeg){ height=80% }  
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+      Kann Korrelation von räumlicher und kultureller Distanz \textbf{ausgeschlossen} werden?
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![**+** Correlation development for **100 simulation runs** with **equal intergroup distance**.](figures/sed_simulation_step_2.jpeg){ height=88%  }
+![**+** Korrelationsentwicklung mit **100 Simulationsläufen** und **nicht-räumliche Gruppendistanz**.](figures/sed_simulation_step_2.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+      Kann Korrelation von räumlicher und kultureller Distanz \textbf{ausgeschlossen} werden?
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![**+** Diagnostic **boxplots** for simulation runs.](figures/sed_simulation_step_3.jpeg){ height=88%  }
+![**+** Boxplots für die Simulationsläufe.](figures/sed_simulation_step_3.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+      Kann Korrelation von räumlicher und kultureller Distanz \textbf{ausgeschlossen} werden?
     \end{minipage}}%
 \end{textblock*}
 
@@ -764,20 +764,20 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age   
+      \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit   
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![**+** Diagnostic **dotplots** indicating mantel test results.](figures/sed_simulation_step_4.jpeg){ height=88%  }
+![**+** Dotplots mit Mantel-Test Ergebnissen.](figures/sed_simulation_step_4.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+      Kann Korrelation von räumlicher und kultureller Distanz \textbf{ausgeschlossen} werden?
     \end{minipage}}%
 \end{textblock*}
 
@@ -787,20 +787,20 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age
+     \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit  
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![Same plot, but simulations now with **spatial intergroup distance**.](figures/high_spatial_interaction.jpeg){ height=88%  }
+![Selber Plot, Simulation jetzt allderdings mit **räumlicher Gruppendistanz**.](figures/high_spatial_interaction.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+      Kann Korrelation von räumlicher und kultureller Distanz \textbf{ausgeschlossen} werden?
     \end{minipage}}%
 \end{textblock*}
 
@@ -810,7 +810,7 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age   
+     \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit     
     \end{minipage}}%
 \end{textblock*}
 
@@ -820,20 +820,18 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Spatial intergroup distance}: Unlikely development in the Late Bronze Age  
+      \textbf{Räumliche Gruppendistanz}: Unwahrscheinlich für die Spätbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{60pt}(300pt,120pt)
+\begin{textblock*}{60pt}(300pt,110pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{burial type} behaves \textbf{highly atypical} if we assume spatial correlation
+      \textbf{burial type} verhält sich \textbf{nicht erwartungsgemäß} unter der Annahme räumlicher Korrelation
     \end{minipage}}%
 \end{textblock*}
-
-## Observations and Hypotheses
 
 ##
 
@@ -848,5 +846,5 @@ Simulationskonzept:
 - Einführung zum Datensatz
 - Kulturelle Distanz, räumliche Distanz und Korrelation
 - Interpolation und Gruppen
-- Cultural Evolution und Bestattungssitten
+- Cultural Evolution
 - Ideenausbreitung simulieren
