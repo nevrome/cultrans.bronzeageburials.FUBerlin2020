@@ -468,7 +468,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_type.png}
-    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable \textbf{burial type}. Unsicherheit wird mit Transparenz visualisiert.}
+    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable\newline \textbf{burial type}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
 
@@ -477,16 +477,16 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_construction.png}
-    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable \textbf{burial construction}. Unsicherheit wird mit Transparenz visualisiert.}
+    \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable\newline \textbf{burial construction}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
 
-## Diachronen Verhaltens an jedem Punkt im Raum
+## Diachrones Verhalten an jedem Punkt im Raum
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
-    \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum mit durchgehend hinreichender Informationsdichte.}
+    \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum mit durchgehend hinreichender\newline Informationsdichte.}
   \end{figure}
 \end{adjustwidth}
 
@@ -495,16 +495,25 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
-    \caption{Klassifizierung der Vorhersageergebnisse. Mittelwert und Standardabweichung für jedes Cluster in jedem Zeitschritt.}
+    \caption{Klassifizierung der Vorhersageergebnisse. Mittelwert und Standardabweichung\newline für jedes Cluster in jedem Zeitschritt.}
   \end{figure}
 \end{adjustwidth}
 
-\begin{textblock*}{100pt}(240pt,235pt)
+\begin{textblock*}{100pt}(30pt,236pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       Die diachronen \textbf{Zeitsäulen} lassen sich mit Clusteranalyse (\textbf{kmeans}) klassifizieren
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{140pt}(200pt,236pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      \textbf{Beispiel Cluster 2}: Langes Festhalten an Grabhügeln aber frühe Übernahme der Brandbestattung
     \end{minipage}}%
 \end{textblock*}
 
@@ -537,17 +546,15 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Beobachtungen und Hypothesen
 
-- **Punktdaten in Raum und Zeit** lassen sich vielfältig visualisieren und die **3D Perspektive** kann zu nützlichen 2D Visualisierungen führen.
+- **Punktdaten in Raum und Zeit** lassen sich vielfältig visualisieren und die **3D Perspektive** kann zu nützlichen 2D Visualisierungen führen
 
-- Gut durchdachte **Interpolation** erlaubt es, **Hypothesen** zu Zeiten und Räumen ohne Messungen zu formulieren.
+- Gut durchdachte **Interpolation** erlaubt es, **Hypothesen** mit **Unsicherheitsabschätzung** zu Zeiten und Räumen ohne Messungen zu formulieren
 
-- **Gaussprozessregression** erlaubt Interpolation mit einer **Unsicherheitsabschätzung**.
-
-- Interpolierte **Zeitreihen** lassen sich zur **Gruppendefinition** heranziehen.
+- Interpolierte **Zeitreihen** lassen sich zur **Gruppendefinition** heranziehen
 
 # Cultural Evolution
 
-## Cultural Evolution Theorie: Definition
+## Cultural Evolution: Definition
 
 - Die Prozesse der **natürlichen Entwicklung** von Spezies durch Evolution wirken auch bei der **menschlichen Kulturentwicklung**
 
@@ -555,43 +562,43 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 - **Biologische Terminologie und Methodik** kann auch in **anthropologischen Kontexten** sinnvoll eingesetzt werden
 
-## Cultural Evolution Theorie: Anfang des 19. Jhds. bis 1970. 
+## Cultural Evolution: Anfang des 19. Jhds. bis 1970. 
 
 - **Evolutionismus**
   - schrittweiser, kulturellen **Aufstieg**, Zunahme organisatorischer **Komplexität**, **Teleologie** der Kulturgeschichte, Marktwirtschaftlicher **Wettbewerb**
   - **Vergleichende Methode**
   - Inspiration für rassistische und **sozialdarwinistische** Theorien: *Nie und nirgends sind Staaten anders entstanden als durch Unterwerfung fremder Stämme seitens eines oder mehrerer verbündeter oder geeinigter Stämme.* - Gumplowicz (1885), 99.
 \newline
-- **Kulturrelativismus** und **Historischer Partikularismus**
-  - Kulturanthropologie und Boasianer
+- **Kulturrelativismus**
+  - Kulturanthropologie, Historischer Partikularismus und Boasianer
   - Fokus auf den jeweiligen **naturräumlichen, historischen und soziopolitischen Kontext** einzelner kultureller Ausprägung **ohne Hierarchisierung**
-  - Induktive, empirische Detailanalyse, Interdisziplinarität, Datensammlung
 \newline
 - **Neoevolutionismus**
   - Ablehnung sozialdarwinistischen Biodeterminismus, aber dennoch bewusste **Suche nach Gesetzmäßigkeiten soziokultureller Prozesse**
   - Vere Gordon Childe, Karl Wittfogel, Leslie White, George Murdock, später Elman Service, Morton Fried, Roy Rappaport, Lewis Binford
 
-## Cultural Evolution Theorie: 1970er bis in die Gegenwart
+## Cultural Evolution: 1970er bis in die Gegenwart
 
 - **Evolutionary Psychology**
   - Menschlichen Verhalten vor dem Hintergrund seiner **evolutionären Geschichte**
-  - Genetische Langzeitentwicklung der gesamten Spezies
+  - Größenordnung: Genetische Langzeitentwicklung der gesamten Spezies
   - **Environment of Evolutionary Adaptiveness**: Der Mensch ist ideal an das Leben als pleistozäner Jäger- und Sammler angepasst
   - Themen: Gruppenverhalten, Geschlechterunterschiede, Essverhalten
 \newline
 - **Human Behavioural Ecology**
   - Menschliches Verhalten vor **ökologischem Hintergrund**
-  - Entscheidungsprozesse des Individuums
+  - Größenordnung: Entscheidungsprozesse des Individuums
   - **Phenotypic Gambit**: Menschliches Verhalten ist Optimierungsverhalten
   - Themen: Subsistenz- und Reproduktionsstrategien
+\newline
+- **Memetik** (*1976 -- †2005)
 \newline
 - **Dual Inheritance Theory**
   - Menschliches Verhalten ist nicht (nur) genetisch bestimmt, sondern stärker durch ein **zweites, dynamischeres Vererbungssystem: Kultur**
   - Kultur folgt einem **eigenen Evolutionsprozess** unter Rückwirkung mit ihren Trägern
-  - Kulturprozesse über einige Generationen
+  - Größenordnung: Kulturprozesse über einige Generationen
   - Themen: Entwicklung materieller Kultur, Ideenausbreitung, Fehlanpassungen
-\newline
-- **Memetik** (*1976 -- †2005)
+
 
 ## Cultural Transmission
 
@@ -605,9 +612,9 @@ Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren *
 - **Biased Transmission**
   - Menschen treffen die Entscheidung ob sie eine Idee oder ein Verhaltensmuster übernehmen **nicht zufällig**
   - Entweder sie evaluieren aufwändig, oder sie folgen ihrer **Intuition**
-  - **Conformity Bias**, **Novelty Bias**, **Frequency Bias**, **Prestige Bias**, **Homophily**
+  - **Conformity Bias**, **Novelty Bias**, **Frequency Bias**, **Prestige Bias**, **Homophily**, ...
 \newline
-- **Stylistic Variability**
+- **Stylistic Variability** (Evolutionary Archaeology)
   - Ideen lassen sich in zwei Kategorien gliedern: 
   1. **Functional traits** (Nutzung einer bestimmten Getreideform, die Kompetenz bestimmte Werkzeuge oder Waffen zu fertigen oder soziale Anerkennung von Kinderreichtum) 
   2. **Stylistic traits** (Keramikverzierung, Trachtmode oder Schmuckform)
@@ -637,12 +644,12 @@ Ideen breiten sich **nicht zufällig** aus, verändern sich nach erforschbaren *
 
 Bestattungsrituale sind **Verhalten/Ideen/Kulturelle Merkmale** in Zeit und Raum. Sie existieren im **sozialen Interaktionsraum** und ihre Ausbreitung folgt (vertikalen?) **sozialen Beziehungen**.
 
-Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können als **Neutral traits** behandelt werden.
+Sie haben relativ geringe Auswirkungen auf das Mensch-Umwelt-System (Subsistenz/Reproduktion) und können als **Stylistic/Neutral traits** behandelt werden.
 
 Folgt man der Populationsbiologie, sind die wichtigsten Mechanismen in ihrer Ausbreitung damit **Innovation**, **Drift** and **Flow**, nicht **Selektion**.
 
-- **Drift:** In einer Gruppe gleichwertiger Eigenschaften wird sich mit der Zeit immer eine zufällig durchsetzen.
-- **Flow:** Informationstransfer zwischen Gruppen führt zu Synchronisation.
+- **Drift:** In einer Gruppe gleichwertiger Eigenschaften wird sich mit der Zeit immer eine zufällig durchsetzen
+- **Flow:** Informationstransfer zwischen Gruppen führt zu Synchronisation
 
 \noindent\rule{8cm}{0.4pt}
 
