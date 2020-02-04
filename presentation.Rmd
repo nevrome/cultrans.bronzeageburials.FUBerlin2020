@@ -79,8 +79,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/general_map_research_area_timeslices.jpeg}
-    \caption{Plotmatrix: \textsuperscript{14}C-Daten an Gräbern durch die Zeit.
-    }
+    \caption{\textsuperscript{14}C-Daten an Gräbern durch die Zeit}
   \end{figure}
 \end{adjustwidth}
 
@@ -129,7 +128,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Anpassung der Datenstruktur: Von einzelnen \textsuperscript{14}C-Datierungen zu regionalen \textbf{Zeitreihen} der \textbf{Anwesenheit} bestimmter Bestattungssitten.
+      Von einzelnen \textsuperscript{14}C-Datierungen zu regionalen \textbf{Zeitreihen} der \textbf{Anwesenheit} bestimmter Bestattungssitten.
     \end{minipage}}%
 \end{textblock*}
 
@@ -156,7 +155,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Anpassung der Datenstruktur: Von Zeitreihen der absoluten Anzahl zu  \textbf{Zeitreihen} der \textbf{Anteile} -- \textbf{ein Proxy}
+      Von Zeitreihen der absoluten Anzahl zu  \textbf{Zeitreihen} der \textbf{Anteile} -- \textbf{ein Proxy}
     \end{minipage}}%
 \end{textblock*}
 
@@ -186,7 +185,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Distanzentwicklungsmatrix
 
-![QED Zeitreihen für jedes Region-Region Paar. Interpoliert mit LOESS. **burial type** oben rechts, **burial construction** unten links.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=75% }
+![QED Zeitreihen für jedes Region-Region Paar. Geglättet mit LOESS. **burial type** oben rechts, **burial construction** unten links.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=75% }
 
 \begin{textblock*}{65pt}(5pt,40pt)
   \textblockcolour{niceorange}
@@ -194,7 +193,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The \textbf{QED} kann für jedes Jahr und jede der $8*8=64$ Regionen-Paare berechnet werden
+      The \textbf{QED} kann für jedes Jahr und jede der $8*8=64$ \textbf{Regionen-Paare} berechnet werden
     \end{minipage}}%
 \end{textblock*}
 
@@ -205,7 +204,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{burial construction}:
-      Heterogene Distanzentwicklung
+      Heterogene Entwicklung
     \end{minipage}}%
 \end{textblock*}
 
@@ -216,7 +215,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       \textbf{burial type}: \newline
-      Hohe Ähnlichkeit zu Anfang und am Ende aufgrund des \textbf{allgemeinen Übergangs von Körper- zu Brandbestattung} (Urnenfelder Kultur)
+      Hohe Ähnlichkeit am Anfang und am Ende aufgrund des \textbf{allgemeinen Übergangs von Körper- zu Brandbestattung} (Urnenfelderkultur)
     \end{minipage}}%
 \end{textblock*}
 
@@ -232,7 +231,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Mittlere Distanzmatrix: Burial Type
 
-![**burial type**: Mittlere QED für jedes Regionenpaar. Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=80% }
+![**burial type**: Mittlere QED für jedes Regionen-Paar.\newline Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,130pt)
   \setlength\fboxrule{2pt}%
@@ -245,7 +244,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Mittlere Distanzmatrix: Burial Construction
 
-![**burial construction**: Mittlere QED für jedes Regionenpaar. Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=80% }
+![**burial construction**: Mittlere QED für jedes Regionen-Paar.\newline Je kleiner (heller), desto ähnlicher.](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(300pt,200pt)
   \setlength\fboxrule{2pt}%
@@ -261,7 +260,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
-    \caption{Korrelation der mittleren \textbf{burial type} und \textbf{burial construction} QED in Zeitscheiben von 200 Jahren. Jeder Doppelpunkt repräsentiert ein Regionenpaar.}
+    \caption{Korrelation der mittleren \textbf{burial type} und \textbf{burial construction} QED in Zeitscheiben \newline von 200 Jahren. Jeder Doppelpunkt repräsentiert ein Regionen-Paar.}
   \end{figure}
 \end{adjustwidth}
 
@@ -292,7 +291,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitschritten von 200 Jahren.}
+    \caption{\textbf{burial type}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitscheiben von 200 Jahren.}
   \end{figure}
 \end{adjustwidth}
 
@@ -310,7 +309,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitschritten von 200 Jahren.}
+    \caption{\textbf{burial construction}: Korrelation der mittleren QED und räumlicher Distanz\newline in Zeitscheiben von 200 Jahren.}
   \end{figure}
 \end{adjustwidth}
 
@@ -325,7 +324,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Ergebnis: Korrelation kultureller und räumlicher Distanz
 
-![Zeitreihen der Korrelation kultureller und räumlicher Distanz. 200 Jahr Zeitfenster. Mantel Statistik mit Pearson's Korrelationskoeffizient und Spearman's Rangkorrelation.](figures/correlation_time_series.jpeg){ height=80% }
+![Zeitreihen der Korrelation kultureller und räumlicher Distanz in Schritten von 200 Jahren. Mantel Statistik mit Korrelationskoeffizient nach Pearson und Spearman.](figures/correlation_time_series.jpeg){ height=80% }
 
 \textblockcolour{burialtype}
 
@@ -369,9 +368,9 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 - Die Ausbreitung der Brandbestattungssitte und Flach- und Hügelgrabtraditionen scheinen **weitestgehend unabhängig** voneinander abzulaufen
 
-- Beide Prozesse scheinen **weitestgehend unabhängig von räumlicher Distanz** abzulaufen, abgesehen von der Frühbronzezeit
+- Beide Prozesse scheinen **weitestgehend unabhängig von räumlicher Distanz** abzulaufen, abgesehen von einer Phase in der Frühbronzezeit
 
-- Große Phänomene wie **Tumulus Kultur** und **Urnenfelder Kultur** scheinen sich auf diesem Maßstab **nicht in einfachen Diffusionsprozessen** auszubreiten
+- Große Phänomene wie **Hügelgräberkultur** und **Urnenfelderkultur** scheinen sich auf diesem Maßstab **nicht in einfachen Diffusionsprozessen** auszubreiten und **regionale Isolation** scheint zuzunehmen 
 
 - Andere, nicht unmittelbar räumlich definierte **Interaktionsnetzwerke** könnten die Entwicklung besser erklären: z.B. Elitennetzwerke
 
@@ -382,7 +381,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/map_timeslices.jpeg}
-    \caption{Plotmatrix: \textsuperscript{14}C-Daten an Gräbern durch die Zeit.}
+    \caption{\textsuperscript{14}C-Daten an Gräbern durch die Zeit.}
   \end{figure}
 \end{adjustwidth}
 
@@ -390,9 +389,9 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ![Alle Datierungen in Raum (x- und y-Achse) und Zeit (z-Achse).](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_basic.png){ height=83% }
 
-## 3D Tesselation
+## 3D Tessellation
 
-![Kanten der mit Tessellation abgeleiteten, raumfüllenden Polygone. Alle Dimensionen zwischen 0 und 1 skaliert. ](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png){ height=83% }
+![Kanten der mit Tessellation abgeleiteten, raumfüllenden Polygone.\newline Alle Dimensionen zwischen 0 und 1 skaliert. ](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png){ height=83% }
 
 \begin{textblock*}{70pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -412,7 +411,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
     \end{minipage}}%
 \end{textblock*}
 
-## 3D Tesselation: Burial Type
+## 3D Tessellation: Burial Type
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
