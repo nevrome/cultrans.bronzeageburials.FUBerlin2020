@@ -667,7 +667,7 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Das \textbf{R Paket popgenerator} erzeugt ein ungerichtetes Populationsnetzwerk mit konfigurierbarer \textbf{Populationsgrößenentwicklung}, \textbf{Gruppenzahl}, \textbf{Grad der Interaktion in und zwischen Gruppen}, etc.
+      Das R Paket \textbf{popgenerator} erzeugt ein ungerichtetes Populationsnetzwerk mit konfigurierbarer \textbf{Populationsgrößenentwicklung}, \textbf{Gruppenzahl}, \textbf{Grad der Interaktion in und zwischen Gruppen}, etc.
     \end{minipage}}%
 \end{textblock*}
 
@@ -685,7 +685,7 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Innerhalb der Gruppen herscht mehr \textbf{Interaktion} als zwischen den Gruppen
+      Innerhalb der Gruppen herrscht mehr \textbf{Interaktion} als zwischen den Gruppen
     \end{minipage}}%
 \end{textblock*}
 
@@ -770,7 +770,7 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit   
+      \textbf{Nicht-räumliche Gruppen\-distanz}: Unwahrscheinlich für die Frühbronzezeit   
     \end{minipage}}%
 \end{textblock*}
 
@@ -793,13 +793,13 @@ Simulationskonzept:
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-     \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit  
+     \textbf{Nicht-räumliche Gruppen\-distanz}: Unwahrscheinlich für die Frühbronzezeit  
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulationsanwendung: Räumliche und Kulturelle Distanz
 
-![Selber Plot, Simulation jetzt allderdings mit **räumlicher Gruppendistanz**.](figures/high_spatial_interaction.jpeg){ height=80% }
+![Selber Plot, Simulation jetzt allerdings mit **räumlicher Gruppendistanz**.](figures/high_spatial_interaction.jpeg){ height=80% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -810,23 +810,13 @@ Simulationskonzept:
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(10pt,110pt)
-  \textblockcolour{niceorange}
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-     \textbf{Nicht-räumliche Gruppendistanz}: Unwahrscheinlich für die Frühbronzezeit     
-    \end{minipage}}%
-\end{textblock*}
-
 \begin{textblock*}{60pt}(300pt,40pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Räumliche Gruppendistanz}: Unwahrscheinlich für die Spätbronzezeit
+      \textbf{Räumliche Gruppen\-distanz}: Unwahrscheinlich für die Spätbronzezeit
     \end{minipage}}%
 \end{textblock*}
 
