@@ -380,18 +380,18 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/map_timeslices.jpeg}
+    \includegraphics{figures/map_timeslices.jpeg}
     \caption{\textsuperscript{14}C-Daten an Gräbern durch die Zeit.}
   \end{figure}
 \end{adjustwidth}
 
 ## Punkte in Raum und Zeit: 3D
 
-![Alle Datierungen in Raum (x- und y-Achse) und Zeit (z-Achse).](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_basic.png){ height=83% }
+![Alle Datierungen in Raum (x- und y-Achse) und Zeit (z-Achse).](figures/3D_plot_basic.png){ height=83% }
 
 ## 3D Tessellation
 
-![Kanten der mit Tessellation abgeleiteten, raumfüllenden Polygone.\newline Alle Dimensionen zwischen 0 und 1 skaliert. ](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_tesselation_burial_type.png){ height=83% }
+![Kanten der mit Tessellation abgeleiteten, raumfüllenden Polygone.\newline Alle Dimensionen zwischen 0 und 1 skaliert. ](figures/3D_plot_tesselation_burial_type.png){ height=83% }
 
 \begin{textblock*}{70pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -415,7 +415,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/bleiglas_matrix_burial_type.png}
+    \includegraphics{figures/bleiglas_matrix_burial_type.png}
     \caption{Zeitscheibenschnitte durch den tesselierten Raum für die Variable \textbf{burial type}.}
   \end{figure}
 \end{adjustwidth}
@@ -431,7 +431,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 ## Gaussprozessregression
 
-![Mit Gaussprozessregression interpolierte Punkte zwischen den tatsächlichen Beobachtungen für die Variable **burial type**.](../cultrans.bronzeageburials.article2020/analysis/figures/3D_plot_gpr_burial_type.png){ height=83% }
+![Mit Gaussprozessregression interpolierte Punkte zwischen den tatsächlichen Beobachtungen für die Variable **burial type**.](figures/3D_plot_gpr_burial_type.png){ height=83% }
 
 \begin{textblock*}{70pt}(10pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -467,7 +467,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_type.png}
+    \includegraphics{figures/gpr_model_mean_map_burial_type.png}
     \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable\newline \textbf{burial type}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
@@ -476,7 +476,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_model_mean_map_burial_construction.png}
+    \includegraphics{figures/gpr_model_mean_map_burial_construction.png}
     \caption{Zeitscheibenschnitte durch den interpolierten Raum für die Variable\newline \textbf{burial construction}. Unsicherheit wird mit Transparenz visualisiert.}
   \end{figure}
 \end{adjustwidth}
@@ -485,7 +485,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
+    \includegraphics{figures/gpr_kmeans_mean_bc+bt_3_clusterdef_raw.png}
     \caption{Vorhersageergebnisse für \textbf{burial type} und \textbf{burial construction} durch die Zeit \newline für jeden Punkt im geographischen Raum mit durchgehend hinreichender\newline Informationsdichte.}
   \end{figure}
 \end{adjustwidth}
@@ -494,7 +494,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
+    \includegraphics{figures/gpr_kmeans_mean_bc+bt_3_clusterdef.png}
     \caption{Klassifizierung der Vorhersageergebnisse. Mittelwert und Standardabweichung\newline für jedes Cluster in jedem Zeitschritt.}
   \end{figure}
 \end{adjustwidth}
@@ -521,7 +521,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_mean_bc+bt_3_map.png}
+    \includegraphics{figures/gpr_kmeans_mean_bc+bt_3_map.png}
     \caption{Kartierung der Cluster.}
   \end{figure}
 \end{adjustwidth}
@@ -530,7 +530,7 @@ Die **Quadrierte Euklidische Distanz** (QED) ist ein einfaches Maß der **Ähnli
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../cultrans.bronzeageburials.article2020/analysis/figures/gpr_kmeans_iterative_bc+bt_3_map.png}
+    \includegraphics{figures/gpr_kmeans_iterative_bc+bt_3_map.png}
     \caption{Kartierung der Cluster nach 100 Wiederholungen.}
   \end{figure}
 \end{adjustwidth}
